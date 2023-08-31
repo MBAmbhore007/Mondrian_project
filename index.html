@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mondrian Project</title>
+  <style>
+    /* 
+    Write your CSS here 
+    Gap Colour: #000
+    White: #F0F1EC
+    Red: #E72F24
+    Black: #232629
+    Blue: #004592
+    Yellow: #F9D01E
+
+    For dimensions, see dimensions.png image.
+    HINT: Remember you can't change the properties of grid lines.
+    But grid lines are transparent!
+    */
+
+    .container{
+        display: grid;
+        height: 80vh;
+        width:100%;
+        /*border: 10px solid black;*/
+        grid-template-columns: repeat(12,50px);
+        grid-template-rows: repeat(12,100px);
+        justify-content: center;
+        
+
+    }
+    .container *{
+        border: 5px solid black;
+        
+        
+    }
+    .one,.eighteen,.thirtyfour,.thirtyfive,.thirtyeight,.thirtynine,.fourty,.fourtythree,.fourtyfour,.fourtyseven,.fourtyeight,.fiftyfour,.fiftyfive{
+        grid-row: span 2;
+        
+    }
+    .two{
+        grid-column: span 3;
+    }
+    .eleven,.twelve,.seventeen,.twentyfour,.twentyseven,.thirtyfour,.thirtyfive,.thirtyseven,.thirtyeight,.thirtynine,.fourtythree,.fourtyfour,.fourtyfive,.fourtyseven,.fourtyeight,.sixtytwo,.sixtythree{
+        grid-column: span 2;
+    }
+
+    .thirteen{
+        grid-column: span 4;
+        grid-row: span 2;
+        
+    }
+    .fiftyfive{
+        grid-column: span 5;
+    }
+    .thirteen,.thirtyfour,.fourtyseven{
+        background-color: red;
+    }
+    .twelve,.eighteen,.twentyseven,.fiftythree,.fiftyeight,.sixtytwo{
+        background-color: black;
+    }
+    .two,.fifteen,.sixteen,.seventeen,.thirtyeight,.thirtynine,.fourtythree,.fourtyfour,.fiftynine,.sixty,.sixtyone{
+        background-color: yellow;
+    }
+    .thirty,.thirtyone,.thirtyfive,.fourtyeight,.fiftyfive{
+        background-color: blue;
+    }
+   
+  </style>
+</head>
+
+<body>
+  <!-- Write your HTML here -->
+  <div class="container">
+    <div class="one"></div>
+    <div class="two"></div>
+    <div class="three"></div>
+    <div class="four"></div>
+    <div class="five"></div>
+    <div class="six"></div>
+    <div class="seven"></div>
+    <div class="eight"></div>
+    <div class="nine"></div>
+    <div class="ten"></div>
+    <div class="eleven"></div>
+    <div class="twelve"></div>
+    <div class="thirteen"></div>
+    <div class="fourteen"></div>
+    <div class="fifteen"></div>
+    <div class="sixteen"></div>
+    <div class="seventeen"></div>
+    <div class="eighteen"></div>
+    <div class="nineteen"></div>
+    <div class="twenty"></div>
+    <div class="twentyone"></div>
+    <div class="twentytwo"></div>
+    <div class="twentythree"></div>
+    <div class="twentyfour"></div>
+    <div class="twentyfive"></div>
+    <div class="twentysix"></div>
+    <div class="twentyseven"></div>
+    <div class="twentyeight"></div>
+    <div class="twentynine"></div>
+    <div class="thirty"></div>
+    <div class="thirtyone"></div>
+    <div class="thirtytwo"></div>
+    <div class="thirtythree"></div>
+    <div class="thirtyfour"></div>
+    <div class="thirtyfive"></div>
+    <div class="thirtysix"></div>
+    <div class="thirtyseven"></div>
+    <div class="thirtyeight"></div>
+    <div class="thirtynine"></div>
+    <div class="fourty"></div>
+    <div class="41"></div>
+    <div class="42"></div>
+    <div class="fourtythree"></div>
+    <div class="fourtyfour"></div>
+    <div class="fourtyfive"></div>
+    <div class="46"></div>
+    <div class="fourtyseven"></div>
+    <div class="fourtyeight"></div>
+    <div class="49"></div>
+    <div class="50"></div>
+    <div class="51"></div>
+    <div class="52"></div>
+    <div class="fiftythree"></div>
+    <div class="fiftyfour"></div>
+    <div class="fiftyfive"></div>
+    <div class="56"></div>
+    <div class="57"></div>
+    <div class="fiftyeight"></div>
+    <div class="fiftynine"></div>
+    <div class="sixty"></div>
+    <div class="sixtyone"></div>
+    <div class="sixtytwo"></div>
+    <div class="sixtythree"></div>
+    <div class="64"></div>
+ 
+    
+  </div>
+</body>
+
+</html>
